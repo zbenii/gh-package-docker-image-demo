@@ -8,30 +8,59 @@ ifndef::backend[:backend: html5]
 :imagesdir: images
 :customcss: css/presentation.css
 :revealjs_parallaxBackgroundSize: cover
-:revealjs_parallaxBackgroundImage: images/background.jpg
+:revealjs_parallaxBackgroundImage: images/background.png
 
-== First Slide
+== Was ist GitHub Packages?
 
-* aaa
-* bbb
-* ccc [red]#red text#
+* Plattform, um Packages zu hosten und verwalten
+* Zentralisiert Softwareentwicklung auf GitHub
+* Kombinierbar mit GitHub Actions
 
-=== Second Slide
+[%notitle]
+=== Packages Bild
 
-[plantuml,cld,png]
-----
-@startuml
-class Person {
-brand: String
-type: String
-}
-@enduml
-----
+image::packages-diagram-with-container-registry.png[background, size=cover]
 
-== Third Slide
+[.notes]
+--
+npm -> JavaScript package.json
+RubyGems ->  Gemfile packages
+Container Registry -> Dockerfile
+Apache Maven -> Maven dependencies pom.xml
+Gradle -> build.gradle
+NuGet -> nuget packages nupkg
+--
 
-image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940[VW]
+== Warum GitHub Packages?
 
-== Fourth Slide
+* Ganzer Entwicklungsprozess auf GitHub sichtbar +
+-> Code, Deployment, Doku, ...
+* Zugriffe können verwaltet werden
+* öffentliche/private Packages
 
-IMPORTANT: Something very important
+[.notes]
+--
+Zugriffe:
+
+* User
+* Organisation
+* Vom Repo geerbt
+* Read/Write
+* Packages bei GitHub Repo sichtbar
+
+Privat/Öffentlich:
+
+* Jeder hat Zugriff
+* Beschränkt auf eingeladene User, Orgas
+--
+
+== Alternativen
+* npm -> image:npm.png[,60]
+* Nuget -> image:nuget.png[,50]
+* Maven -> image:maven.png[,70]
+* DockerHub -> image:dockerhub.png[,50]
+* Amazon Container Registry (Docker) -> image:amazon.png[,80]
+
+== Code Demo
+
+IMPORTANT: Code Demo
