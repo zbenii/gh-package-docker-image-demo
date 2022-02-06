@@ -19,7 +19,7 @@ ifndef::backend[:backend: html5]
 [%notitle]
 === Packages Bild
 
-image::packages-diagram-with-container-registry.png[]
+image::packages-diagram-with-container-registry.png[background, size=contain]
 
 [.notes]
 --
@@ -55,29 +55,18 @@ Privat/Öffentlich:
 --
 
 == Alternativen
-[%noheader,cols=2*]
-|===
 
-^|**npm**
-^|image:npm.png[,60]
-
-^|**NuGet**
-^|image:nuget.png[,30]
-
-^|**Maven**
-^|image:maven.png[,60]
-
-^|**DockerHub**
-^|image:dockerhub.png[,45]
-
-^|**Amazon Container Registry**
-^|image:amazon.png[,70]
-|===
+* **npm** image:npm.png[,100]
+* **NuGet** image:nuget.png[,65]
+* **Maven** image:maven.png[,100]
+* **DockerHub** image:dockerhub.png[,70]
+* **Amazon Container Registry** image:amazon.png[,100]
 
 [.notes]
 --
 Amazon: Docker Images storen
 --
+
 == Code Demo
 
 IMPORTANT: Quarkus/Vue.js Projekt
