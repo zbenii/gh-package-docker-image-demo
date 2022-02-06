@@ -12,14 +12,14 @@ ifndef::backend[:backend: html5]
 
 == Was ist GitHub Packages?
 
-* Plattform, um Packages zu hosten und verwalten
+* Plattform, um Packages zu hosten und zu verwalten
 * Zentralisiert Softwareentwicklung auf GitHub
 * Kombinierbar mit GitHub Actions
 
 [%notitle]
 === Packages Bild
 
-image::packages-diagram-with-container-registry.png[background, size=cover]
+image::packages-diagram-with-container-registry.png[]
 
 [.notes]
 --
@@ -59,19 +59,19 @@ Privat/Öffentlich:
 |===
 
 ^|**npm**
-^|image:npm.png[,100]
+^|image:npm.png[,60]
 
 ^|**NuGet**
-^|image:nuget.png[,40]
+^|image:nuget.png[,30]
 
 ^|**Maven**
-^|image:maven.png[,80]
+^|image:maven.png[,60]
 
 ^|**DockerHub**
-^|image:dockerhub.png[,50]
+^|image:dockerhub.png[,45]
 
 ^|**Amazon Container Registry**
-^|image:amazon.png[,90]
+^|image:amazon.png[,70]
 |===
 
 [.notes]
@@ -80,4 +80,4 @@ Amazon: Docker Images storen
 --
 == Code Demo
 
-IMPORTANT: Code Demo
+IMPORTANT: Quarkus/Vue.js Projekt
