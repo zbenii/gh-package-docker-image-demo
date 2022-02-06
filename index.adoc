@@ -1,0 +1,72 @@
+= GitHub Packages
+Benjamin Besic
+1.0, 2020-08-22
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+:imagesdir: images
+:customcss: css/presentation.css
+:revealjs_parallaxBackgroundSize: cover
+:revealjs_parallaxBackgroundImage: images/background.png
+
+== Was ist GitHub Packages?
+
+* Plattform, um Packages zu hosten und zu verwalten
+* Zentralisiert Softwareentwicklung auf GitHub
+* Kombinierbar mit GitHub Actions
+
+[%notitle]
+=== Packages Bild
+
+image::packages-diagram-with-container-registry.png[background, size=contain]
+
+[.notes]
+--
+npm -> JavaScript package.json
+RubyGems ->  Gemfile packages
+Container Registry -> Dockerfile
+Apache Maven -> Maven dependencies pom.xml
+Gradle -> build.gradle
+NuGet -> nuget packages nupkg
+--
+
+== Warum GitHub Packages?
+
+* Ganzer Entwicklungsprozess auf GitHub sichtbar +
+-> Code, Deployment, Doku, ...
+* Zugriffe können verwaltet werden
+* öffentliche/private Packages
+
+[.notes]
+--
+Zugriffe:
+
+* User
+* Organisation
+* Vom Repo geerbt
+* Read/Write
+* Packages bei GitHub Repo sichtbar
+
+Privat/Öffentlich:
+
+* Jeder hat Zugriff
+* Beschränkt auf eingeladene User, Orgas
+--
+
+== Alternativen
+
+* **npm** image:npm.png[,100]
+* **NuGet** image:nuget.png[,65]
+* **Maven** image:maven.png[,100]
+* **DockerHub** image:dockerhub.png[,70]
+* **Amazon Container Registry** image:amazon.png[,100]
+
+[.notes]
+--
+Amazon: Docker Images storen
+--
+
+== Code Demo
+
+IMPORTANT: Quarkus/Vue.js Projekt
