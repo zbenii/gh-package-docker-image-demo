@@ -55,12 +55,29 @@ Privat/Öffentlich:
 --
 
 == Alternativen
-* npm -> image:npm.png[,60]
-* Nuget -> image:nuget.png[,50]
-* Maven -> image:maven.png[,70]
-* DockerHub -> image:dockerhub.png[,50]
-* Amazon Container Registry (Docker) -> image:amazon.png[,80]
+[%noheader,cols=2*]
+|===
 
+^|**npm**
+^|image:npm.png[,100]
+
+^|**NuGet**
+^|image:nuget.png[,40]
+
+^|**Maven**
+^|image:maven.png[,80]
+
+^|**DockerHub**
+^|image:dockerhub.png[,50]
+
+^|**Amazon Container Registry**
+^|image:amazon.png[,90]
+|===
+
+[.notes]
+--
+Amazon: Docker Images storen
+--
 == Code Demo
 
 IMPORTANT: Code Demo
